@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Class name:</strong>
+  <%= @class_seat.class_name %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @class_seat.price %>
+</p>
+
+<p>
+  <strong>Food service:</strong>
+  <%= @class_seat.food_service %>
+</p>
+
+<p>
+  <strong>Seat type:</strong>
+  <%= @class_seat.Seat_type %>
+</p>
+
+<p>
+  <strong>Leg room:</strong>
+  <%= @class_seat.leg_room %>
+</p>
+
+<%= link_to 'Edit', edit_class_seat_path(@class_seat) %> |
+<%= link_to 'Back', class_seats_path %>
